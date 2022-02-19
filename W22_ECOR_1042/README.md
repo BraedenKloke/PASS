@@ -1,8 +1,6 @@
 # PASS for ECOR 1042: Data Management
 
-Activities, coding problems and mock exams for a first-year engineering course at Carleton University.
-
-ECOR 1042 uses Python as the main programming language.
+Activities, coding problems and mock exams for ECOR 1042: Data Management, a first-year engineering course at Carleton University.
 
 ## Core Concepts
 TODO: Update for 2022 Syllabus
