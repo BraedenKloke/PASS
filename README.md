@@ -1,4 +1,4 @@
-# PASS
+# Peer Assisted Study Sessions (PASS)
 Activities, coding problems and mock exams for [Peer Assisted Study Sessions](https://carleton.ca/csas/pass/) at Carleton University.
 
 As a PASS facilitator, I design weekly workshops and mock exams that review core concepts presented in class. Our role is not to re-lecture, but instead encourage students to particpate, collaborate together and foster independent learning.
