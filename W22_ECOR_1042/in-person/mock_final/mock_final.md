@@ -11,3 +11,8 @@ TODO use markdown to create a mock exam, eg.
 * B
 * C
 * D
+
+# Question 3
+  Here is some code
+  Solve this code
+  blah blah blah
