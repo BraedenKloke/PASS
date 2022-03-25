@@ -4,7 +4,7 @@ EPSILON = 0.001
 def bisection_sqrt(x: float) -> float:
     """
         Returns the square root of x.
-        >>> exhaustive_sqrt(25.0)
+        >>> bisection_sqrt(25.0)
         >>> 5.0
     """
     # Define an initial search range. The positive square root of a number
