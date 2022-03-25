@@ -8,9 +8,7 @@ Activity: 2 & 3
 This Python code was designed for a "ECOR 1042: Data Management" PASS workshop.
 
 Core concepts covered include:
-
 * Sorting Algorithms
-
 * Documentation
 
 
