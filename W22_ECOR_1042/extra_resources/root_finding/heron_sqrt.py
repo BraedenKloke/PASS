@@ -4,7 +4,7 @@ EPSILON = 0.001
 def heron_sqrt(x: float) -> float:
     """
         Returns the square root of x.
-        >>> exhaustive_sqrt(25.0)
+        >>> heron_sqrt(25.0)
         >>> 5.0
     """
     guess = 0.1
