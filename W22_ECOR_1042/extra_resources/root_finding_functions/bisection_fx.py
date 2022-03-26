@@ -8,6 +8,11 @@ def sign(num: float) -> bool:
     """
         Returns true if num is positive or equal to 0,
         returns false otherwise.
+        
+        >>> sign(1)
+        >>> True
+        >>> sign(-1)
+        >>> False
     """
 
     if num < 0:
@@ -22,6 +27,8 @@ def bisection_fx(x_lower: float, x_upper: float, f: Callable[[float], float]) ->
         Note: We're passing a function as a parameter here (you don't need to - calling f works too,
         doing it this way makes our bisection_fx more universal to any function though).
         Callable means this is a function with [[parameter types], return type].
+        >>> bisection_fx(0, 2, () -> x - 1)
+        >>> ~1.00
     """
 
     EPSILON = 1e-2
@@ -82,6 +89,7 @@ if __name__ == "__main__":
         """
             Returns the result of
             f(x) = <any function here: implement it below>.
+            I have implemented f(x) = sinc(2πx) = sin(2πx) / (2πx).
         """
 
         # I'll use sin(2 * pi * T * x) / (2 * pi * T * x) = sinc(2 * pi * T * x)

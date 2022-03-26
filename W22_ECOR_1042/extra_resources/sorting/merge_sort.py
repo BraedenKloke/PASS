@@ -6,10 +6,16 @@ Keep splitting the array, until we only have single elements left.
 Then merge the elements up back to being sorted.
 
 Recursive
+Time Complexity: Low [O(nlog(n))] -> fast
 """
 
 
 def merge_sort(lst: List[Any]) -> List[Any]:
+    """
+        Sorts the specified lst in ascending order (in place).
+        >>> merge_sort([4, 3, 1, 2])
+        >>> [1, 2, 3, 4]
+    """
     # There's nothing to do if the list is a
     # single element -> this is our base case (when to stop recursing).
     # A single element list is already sorted.

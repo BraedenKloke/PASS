@@ -33,36 +33,39 @@ from typing import Any
 
 
 def analyse_students(student_list: list[list[Any]], subject: str) -> tuple[list[str], float]:
-    """
-    [Description]
-    >>> [Examples]
-    """
-    count = 0
     gpa_sum = 0
-    students_with_subject = []
+    count = 0
+    student_names = []
 
-    for student_info in student_list:
-        student_fav_subject = student_info[2]
+    for student in student_list:
+        student_subject = student[2]
 
-        if student_fav_subject == subject:
-            students_with_subject.append(student_info[0])
-            gpa_sum += student_info[1]
-            count += 1
+        if student_subject == subject:
+            gpa = student[1]
+            name = student[0]
 
-    average_gpa = gpa_sum / count
+            gpa_sum += gpa                  # sum the gpas
+            student_names.append(name)      # add the student name to our list
+            count += 1                      # incremenet count since we added a student
+            # student_names += [name]
 
-    return (students_with_subject, average_gpa)
+    # average_gpa = round(gpa_sum / count, 2)
+    average_gpa = round(gpa_sum / len(student_names), 2)
+
+    return student_names, average_gpa
 
 
-if __name__ == "__main__":
-    students = [
-        ["shay", 10.0, "MATH"],
-        ["kayla", 9.8, "SYSC"],
-        ["tobu", 11.5, "CHEM"],
-        ["ray", 8.8, "MATH"],
-        ["omar", 7.7, "SYSC"],
-        ["jeon", 10.3, "MATH"],
-        ["kelci", 9.9, "CHEM"]
-    ]
+students = [
+    ["shay", 10.0, "MATH"],
+    ["kayla", 9.8, "SYSC"],
+    ["tobu", 11.5, "CHEM"],
+    ["ray", 8.8, "MATH"],
+    ["omar", 7.7, "SYSC"],
+    ["jeon", 10.3, "MATH"],
+    ["kelci", 9.9, "CHEM"]
+]
 
-    print(analyse_students(students, "MATH"))
+students, gpa = analyse_students(students, "MATH")
+
+print(students)
+print(gpa)

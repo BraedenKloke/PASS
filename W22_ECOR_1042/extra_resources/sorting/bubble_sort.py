@@ -21,6 +21,9 @@ def bubble_sort(lst: List[Any]) -> List[Any]:
         "in place": since lists are mutable, modifying a list inside
         a function modifies the list argument that was passed in (which is
         outside the function). Meaning, we don't *need* to return the list.
+
+        >>> bubble_sort([4, 3, 1, 2])
+        >>> [1, 2, 3, 4]
     """
 
     swaps = True        # Flag that tracks if we made a swap
@@ -62,6 +65,9 @@ def bubble_sort2(lst: List[Any]) -> List[Any]:
 
         Notice how 4 bubbled to its sorted position. On the next iteration 3
         would be in its correct position and so on...
+
+        >>> bubble_sort2([4, 3, 1, 2])
+        >>> [1, 2, 3, 4]
     """
 
     # After the ith iteration, the highest i elements are sorted.

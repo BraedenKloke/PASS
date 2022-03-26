@@ -9,6 +9,8 @@ correct place.
 2. Find next smallest and swap with lst[0 + 1].
 3. Find the ith smallest and swap with lst[i]
 4. Repeat the process...
+
+Time Complexity: High [O(n^2)] -> slow
 """
 
 __author__ = "yousef"
@@ -17,6 +19,8 @@ __author__ = "yousef"
 def selection_sort(lst: List[Any]) -> List[Any]:
     """
         Sorts the specified lst in ascending order (in place).
+        >>> selection_sort([4, 3, 1, 2])
+        >>> [1, 2, 3, 4]
     """
 
     # For each position in the list (...find the
