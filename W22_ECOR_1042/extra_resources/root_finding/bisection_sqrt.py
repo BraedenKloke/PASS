@@ -1,5 +1,7 @@
 EPSILON = 0.001
 
+__author__ = "yousef"
+
 
 def bisection_sqrt(x: float) -> float:
     """

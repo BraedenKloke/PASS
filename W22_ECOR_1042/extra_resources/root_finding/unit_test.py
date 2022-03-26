@@ -20,6 +20,6 @@ def unit_test(actual: Any, expected: Any) -> bool:
 
 
 if __name__ == "__main__":
-    unit_test(5.0, exhaustive_sqrt(25))
-    unit_test(5.0, bisection_sqrt(25))
-    unit_test(5.0, heron_sqrt(25))
+    print(exhaustive_sqrt(12))
+    print(bisection_sqrt(12))
+    print(heron_sqrt(12))
