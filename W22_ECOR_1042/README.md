@@ -3,17 +3,11 @@
 Activities, coding problems and mock exams for ECOR 1042: Data Management, a first-year engineering course at Carleton University.
 
 ## Core Concepts
-TODO: Update for 2022 Syllabus
-* Data representation: integers and floats
-* Import and modules
-* Unit testing
+
+* Container data types in Python: sets, tuples, dictionaries (maps)
+* Defining and importing modules
+* Incremental software development
 * Reading and writing text files
-* Incremental Development
-* Nested loops
-* Dictionaries
+* Unit testing
 * Interactive and batch user interfaces
-* Floating point numbers and readme file
-* Numerical methods: root finding
-* Numerical methods: curve fitting
-* Numerical methods: differentiation
-* Numerical methods: integration
+* Numerical algorithms: algorithms for root finding, sorting elements, one-dimensional optimization, and curve fitting
