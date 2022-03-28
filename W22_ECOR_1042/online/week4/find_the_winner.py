@@ -30,6 +30,17 @@ def election_winner(votes: tuple[tuple[str, str], ...], city: str) -> str:
         if vote_city == city:
             vote_dict[candidate] = vote_dict.get(candidate, 0) + 1
 
+    print(vote_dict)
+
+    """
+    vote_dict = {
+        'jamie': 2, 
+        'mickey': 3, 
+        'tovald': 1, 
+        'obi': 1
+    }
+    """
+
     winner_so_far = ""
 
     return winner_so_far
