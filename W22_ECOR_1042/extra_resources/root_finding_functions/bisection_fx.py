@@ -8,7 +8,7 @@ def sign(num: float) -> bool:
     """
         Returns true if num is positive or equal to 0,
         returns false otherwise.
-        
+
         >>> sign(1)
         >>> True
         >>> sign(-1)
