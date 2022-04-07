@@ -12,26 +12,31 @@ Error Score: [-0.29, -0.6, -0.67, -1.34, -1.0, -0.89, 0.57, 2.1, 4.75, 7.94]
 
 How much magic should eren use to minimize error?
 
-a) Find a cubic regression for the data above
-b) Plot the cubic along with a scatter plot
-c) How much magic is used for an error of -0.5?
-d) How much magic should be used to minimize the error?
+a) Find a cubic regression for the data above. What is the equation?
+b) How much error can we estimate for magic usage of 1?
+c) Plot the cubic along with a scatter plot
+d) How much magic is used for an error of -0.5?
+e) How much magic should be used to minimize the error?
 """
 
 
 def main() -> None:
     """
-    a) Find a cubic regression for the data above
+    a) Find a cubic regression for the data above? What's the equation.
     """
 
     """
-    b) Plot the cubic regression along with a scatter plot
+    b) How much error can we estimate for magic usage of 1?
     """
 
     """
-    c) How much magic is used for an error of -0.5?
+    c) Plot the cubic regression along with a scatter plot
     """
 
     """
-    d) How much magic should be used to minimize the error?
+    d) How much magic is used for an error of -0.5?
+    """
+
+    """
+    e) How much magic should be used to minimize the error? What is the minimum error?
     """
