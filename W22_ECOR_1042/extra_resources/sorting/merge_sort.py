@@ -26,8 +26,8 @@ def merge_sort(lst: List[Any]) -> List[Any]:
     # halves and merge sort both.
 
     mid = len(lst) // 2
-    left = lst[:mid]
-    right = lst[mid:]
+    left = merge_sort(lst[:mid])
+    right = merge_sort(lst[mid:])
 
     """
         Now merge the two sorted lists - left and right

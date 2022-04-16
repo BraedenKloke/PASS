@@ -14,7 +14,6 @@
 - [Insertion Sort](https://github.com/BraedenKloke/PASS/blob/main/W22_ECOR_1042/extra_resources/sorting/insertion_sort.py)
 - [Merge Sort](https://github.com/BraedenKloke/PASS/blob/main/W22_ECOR_1042/extra_resources/sorting/merge_sort.py)
 
-## Optimization [Coming Soon]
-- Matplotlib Plotting
-- Scipy Derivative
-- Golden Section Search
+## Curve Fitting and Optimization
+- [Data Analysis and Curve Fitting](https://github.com/BraedenKloke/PASS/blob/main/W22_ECOR_1042/extra_resources/data_analysis_modules/analysis_curve_fitting.py)
+- [Golden-Section Search](https://github.com/BraedenKloke/PASS/blob/main/W22_ECOR_1042/extra_resources/optimization/golden_section.py)

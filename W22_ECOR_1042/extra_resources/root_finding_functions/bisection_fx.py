@@ -41,7 +41,7 @@ def bisection_fx(x_lower: float, x_upper: float, f: Callable[[float], float]) ->
     if sign(f_lower) == sign(f_upper):
         raise ValueError("Supplied bounds with same sign, cannot guarantee a root.")
 
-    x_guess = (x_lower + x_upper)     # Bisect the search range to find a guess
+    x_guess = (x_lower + x_upper) / 2    # Bisect the search range to find a guess
     f_guess = f(x_guess)
 
     while abs(f_guess) >= EPSILON:    # Keep searching until f(x_guess) = ~0, then x_guess is the root.
